@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         Permission::create(['name' => 'delete tasks']);
 
         // assignments
-        Permission::create(['name' => 'turn in assigments']);
+        Permission::create(['name' => 'turn in assignments']);
 
         // admin permissions
         $adminRole = Role::create(['name' => 'admin']);
